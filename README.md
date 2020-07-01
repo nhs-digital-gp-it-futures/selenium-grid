@@ -11,7 +11,7 @@ The following steps are needed to be able to run the system successfully:
 
 ### Setup Kubernetes
 
-To begin, make sure you have kubernetes running locally as per the [Kubernetes Dev Setup Instructions](../Docs/DevSetup/local-k8s-setup.md)
+To begin, make sure you have kubernetes running locally as per the [Kubernetes Dev Setup Instructions](https://github.com/nhs-digital-gp-it-futures/platform-helm/blob/master/docs/local-k8s-setup.md)
 
 ### Setup Helm
 
