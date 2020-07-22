@@ -17,9 +17,9 @@ To begin, make sure you have kubernetes running locally as per the [Kubernetes D
 
 Note that this system relies upon helm charts. Instructions on how to install helm can be found [here](https://helm.sh/docs/intro/install/).
 
-### Add Namespace
+### Add the "Stable" helm repo
 
-Create the selenium grid namespace - `kubectl apply -f grid-namespace.yml`
+Add google's stable repo containing selenium chart - `helm repo add stable https://kubernetes-charts.storage.googleapis.com/ && helm repo update`
 
 ## Launching, Updating the Environment
 
