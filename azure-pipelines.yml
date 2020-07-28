@@ -7,7 +7,6 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    SourceFolder: 'environments'
     Contents: |
       grid-namespace.yml
       launch-selenium-grid.sh
