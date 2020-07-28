@@ -1,0 +1,16 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: 'environments'
+    Contents: |
+      grid-namespace.yml
+      launch-selenium-grid.sh
+    TargetFolder: '$(build.artifactStagingDirectory)'
+    OverWrite: true
+    
