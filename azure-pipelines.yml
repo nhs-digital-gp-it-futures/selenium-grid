@@ -10,6 +10,9 @@ steps:
     Contents: |
       grid-namespace.yml
       launch-selenium-grid.sh
+      values.yaml
     TargetFolder: '$(build.artifactStagingDirectory)'
     OverWrite: true
-    
+
+- publish: $(build.artifactStagingDirectory)
+  artifact: build-artifact 
